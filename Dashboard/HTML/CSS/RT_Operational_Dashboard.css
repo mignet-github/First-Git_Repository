@@ -1,1 +1,86 @@
-@CHARSET "ISO-8859-1";
+/*!
+ * Laurent Mignet 
+ */
+ 
+ 
+ .bg-primary {
+ 	background-color: black !important;
+ 	color: white;
+  }
+ 
+ .table-bordered {
+  border: 5px solid white;
+  background-color: #000000 !important;
+  text-color: white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+   border: 3px solid white !important;
+   color: white;
+   text-align: center;
+   padding: 0;
+}
+
+.table>tbody>tr.laurent-danger>td, 
+.table>tbody>tr.laurent-danger>th, 
+.table>tbody>tr>td.laurent-danger, 
+.table>tbody>tr>th.laurent-danger, 
+.table>tfoot>tr.laurent-danger>td, 
+.table>tfoot>tr.laurent-danger>th, 
+.table>tfoot>tr>td.laurent-danger, 
+.table>tfoot>tr>th.laurent-danger, 
+.table>thead>tr.laurent-danger>td, 
+.table>thead>tr.laurent-danger>th, 
+.table>thead>tr>td.laurent-danger, 
+.table>thead>tr>th.laurent-danger {
+    background-color: red !important;
+    font-weight: bold; 
+    font-size: 150%;
+/*    color: black; */
+}
+
+.table>tbody>tr.laurent-warning>td, 
+.table>tbody>tr.laurent-warning>th, 
+.table>tbody>tr>td.laurent-warning, 
+.table>tbody>tr>th.laurent-warning, 
+.table>tfoot>tr.laurent-warning>td, 
+.table>tfoot>tr.laurent-warning>th, 
+.table>tfoot>tr>td.laurent-warning, 
+.table>tfoot>tr>th.laurent-warning, 
+.table>thead>tr.laurent-warning>td, 
+.table>thead>tr.laurent-warning>th, 
+.table>thead>tr>td.laurent-warning, 
+.table>thead>tr>th.laurent-warning {
+    background-color: DarkOrange !important;
+    font-weight: bold; 
+    font-size: 125%;
+/*    color: black; */
+}
+
+
+.table>tbody>tr.laurent-normal>td, 
+.table>tbody>tr.laurent-normal>th, 
+.table>tbody>tr>td.laurent-normal, 
+.table>tbody>tr>th.laurent-normal, 
+.table>tfoot>tr.laurent-normal>td, 
+.table>tfoot>tr.laurent-normal>th, 
+.table>tfoot>tr>td.laurent-normal, 
+.table>tfoot>tr>th.laurent-normal, 
+.table>thead>tr.laurent-normal>td, 
+.table>thead>tr.laurent-normal>th, 
+.table>thead>tr>td.laurent-normal, 
+.table>thead>tr>th.laurent-normal {
+    background-color: black !important;
+    font-weight: normal; 
+    font-size: 100%;
+/*    color: black; */
+}

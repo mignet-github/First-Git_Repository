@@ -1,25 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1">
-<title>CLM Operational Dashboard -- Laurent</title>
-</head>
-<body>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<TABLE>
-   <TR>
-      <TH><H3>TABLE TITLE</H3>
-      </TH>
-   </TR>
-   <TR>
-      <TH>Column A</TH>
-      <TH>Column B</TH>
-   </TR>
-   <TR ALIGN="CENTER">
-      <TD>Data 1</TD>
-      <TD>Data 2</TD>
-   </TR>
-</TABLE>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>CLM Operational Dashboard -- Laurent</title>
+
+	<link href="./CSS/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./CSS/RT_Operational_Dashboard.css">
+
+
+
+</head>
+<body class="bg-primary">
+
+<button onclick="myFunction()">Try it</button>
+
+<button onclick="myFunction1()">Try it again</button>
+
+ <div class="container"> </div>
+  
+	<table class = "table table-responsive table-bordered">
+		<thead>
+			<tr>
+				<th>Hub</th>
+				<th>%Solace</th>
+				<th>%ONDR</th>
+				<th> circle alerts Solace</th>
+				<th> Circle Alerts ONDR</th>
+				<th>Latency  [0-5] sec % </th>
+				<th>Latency  ]5-10]  sec % </th>
+				<th>Latency  > 10 sec % </th>
+				<th>Latency circle alerts</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr> 
+				<td id = "North-HD" >North</td>
+				<td>90</td>
+				<td>10</td>
+				<td>40</td>
+			</tr>
+			<tr>
+				<td>South</td>
+				<td id="South-Solace">80</td>
+				<td>20</td>
+				<td>30</td>
+			</tr>
+			
+		</tbody>
+	</table>
+
+
+
+<!-- 	
+	<div class = "row">
+	<div class = "col-md-1">.col-md-1</div>
+	<div class = "col-md-2">.col-md-2</div>
+	<div class = "col-md-3">.col-md-3</div>
+</div>
+<div class = "row">
+	<div class = "col-md-6">.col-md-6</div>
+</div>
+
+-->
+	<TABLE>
+		<TR>
+			<TH>TABLE TITLE</TH>
+		</TR>
+		<TR>
+			<TH>Column A</TH>
+			<TH>Column B</TH>
+		</TR>
+		<TR ALIGN="CENTER">
+			<TD>Data 1</TD>
+			<TD>Data 2</TD>
+		</TR>
+	</TABLE>
 
 </body>
+<script src="test.js"></script>
+
+
 </html>
